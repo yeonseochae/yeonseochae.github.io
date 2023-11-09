@@ -1,0 +1,225 @@
+body{
+    background-color: black;
+}
+.container{
+    font-family: sans-serif;
+    font-size:16px;
+}
+.red-box{
+    background-color: #FF280B;
+    position: fixed;
+    z-index: -1;
+    width: 250px;
+    height: 800px;
+}
+.red-text{
+    position: fixed;
+    writing-mode: vertical-rl;
+    margin-top: 6px;
+    margin-left: 3px;
+}
+.red-label{
+    position: fixed;
+    writing-mode: vertical-rl;
+    margin-top: 260px;
+    margin-left: 3px;
+    font-size: 12px;
+}
+.orange-box{
+    background-color: #FF730B;
+    position: fixed;
+    margin-left:250px;
+    z-index: -1;
+    width: 150px;
+    height: 800px;
+}
+.orange-text{
+    position: fixed;
+    writing-mode: vertical-rl;
+    margin-top: 6px;
+    margin-left: 253px;
+}
+.orange-label{
+    position: fixed;
+    writing-mode: vertical-rl;
+    margin-top: 260px;
+    margin-left: 253px;
+    font-size: 12px;
+}
+.brown-box{
+    background-color: #995323;
+    position: fixed;
+    margin-left:400px;
+    z-index: -1;
+    width: 80px;
+    height: 800px;
+}
+.brown-text{
+    position: fixed;
+    writing-mode: vertical-rl;
+    margin-top: 6px;
+    margin-left: 403px;
+}
+.brown-label{
+    position: fixed;
+    writing-mode: vertical-rl;
+    margin-top: 260px;
+    margin-left: 403px;
+    font-size: 12px;
+}
+.yellow-box{
+    background-color: #FFE652;
+    position: fixed;
+    margin-left:480px;
+    z-index: -1;
+    width: 90px;
+    height: 800px;
+}
+.yellow-text{
+    position: fixed;
+    writing-mode: vertical-rl;
+    margin-top: 6px;
+    margin-left: 483px;
+}
+.yellow-label{
+    position: fixed;
+    writing-mode: vertical-rl;
+    margin-top: 260px;
+    margin-left: 483px;
+    font-size: 12px;
+}
+.green-box{
+    background-color: #59C95B;
+    position: fixed;
+    margin-left:570px;
+    z-index: -1;
+    width: 190px;
+    height: 800px;
+}
+.green-text{
+    position: fixed;
+    writing-mode: vertical-rl;
+    margin-top: 6px;
+    margin-left: 573px;
+}
+.green-label{
+    position: fixed;
+    writing-mode: vertical-rl;
+    margin-top: 260px;
+    margin-left: 573px;
+    font-size: 12px;
+}
+.blue-box{
+    background-color: #3E9BDB;
+    position: fixed;
+    margin-left:760px;
+    z-index: -1;
+    width: 50px;
+    height: 800px;
+}
+.blue-text{
+    position: fixed;
+    writing-mode: vertical-rl;
+    margin-top: 6px;
+    margin-left: 763px;
+}
+.blue-label{
+    position: fixed;
+    writing-mode: vertical-rl;
+    margin-top: 260px;
+    margin-left: 763px;
+    font-size: 12px;
+}
+.navy-box{
+    background-color: #4968AD;
+    position: fixed;
+    margin-left:810px;
+    z-index: -1;
+    width: 280px;
+    height: 800px;
+}
+.navy-text{
+    position: fixed;
+    writing-mode: vertical-rl;
+    margin-top: 6px;
+    margin-left: 813px;
+}
+.navy-label{
+    position: fixed;
+    writing-mode: vertical-rl;
+    margin-top: 260px;
+    margin-left: 813px;
+    font-size: 12px;
+}
+.purple-box{
+    background-color: #9E5DA5;
+    position: fixed;
+    margin-left:1090px;
+    z-index: -1;
+    width: 110px;
+    height: 800px;
+}
+.purple-text{
+    position: fixed;
+    writing-mode: vertical-rl;
+    margin-top: 6px;
+    margin-left: 1093px;
+}
+.purple-label{
+    position: fixed;
+    writing-mode: vertical-rl;
+    margin-top: 260px;
+    margin-left: 1093px;
+    font-size: 12px;
+}
+.white-box{
+    background-color: white;
+    position: fixed;
+    margin-left:1200px;
+    z-index: -1;
+    width: 50px;
+    height: 800px;
+}
+.white-text{
+    position: fixed;
+    writing-mode: vertical-rl;
+    margin-top: 6px;
+    margin-left: 1203px;
+}
+.white-label{
+    position: fixed;
+    writing-mode: vertical-rl;
+    margin-top: 260px;
+    margin-left: 1203px;
+    font-size: 12px;
+}
+.black-box{
+    background-color: #302D30;
+    position: fixed;
+    margin-left:1250px;
+    z-index: -1;
+    width: 170px;
+    height: 800px;
+}
+.black-text{
+    position: fixed;
+    writing-mode: vertical-rl;
+    margin-top: 6px;
+    margin-left: 1253px;
+    color: white;
+}
+.black-label{
+    position: fixed;
+    writing-mode: vertical-rl;
+    margin-top: 260px;
+    margin-left: 1253px;
+    color: white;
+    font-size: 12px;
+}
+
+
+
+
+
+
+
