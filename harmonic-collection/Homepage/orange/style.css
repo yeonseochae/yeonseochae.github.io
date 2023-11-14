@@ -1,5 +1,156 @@
-.header{
-    font-size:100px;
-    font-family: sans-serif;
-    animation: 3s linear 1s infinite running slidein;
+body{
+    background-color: #FF6833;
 }
+.button{
+    border: none;
+    outline: none;
+    background: #FFF6DC;
+    padding: 10px 30px;
+    font-size: 15px;
+    color: black;
+    cursor: pointer;
+    margin: 10px auto;
+    border-radius: 49%;
+}
+
+.title{
+    font-size: 24px;
+    word-spacing: 4.3cm;
+    left: 47px;
+    font-family: sans-serif;
+    color:rgb(121, 34, 0);
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 8vh; 
+    position: fixed;
+    z-index: 3;
+}
+
+.description{
+    height: 300vh;
+    display: flex;
+}
+.description-paragraph{
+    width: 45%;
+    height: 104vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    font-size:17px;
+    line-height: .55cm;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FF6833;
+    color: #FFF6DC;
+    text-align: center;
+}
+.words{
+    width: 27%;
+    color: #FFF6DC;
+    font-family: arial;
+    text-align: center;
+    line-height: .7cm;
+    margin-left: 46%;
+}
+.words-2{
+    width: 27%;
+    color: #FFF6DC;
+    font-family: arial;
+    text-align: center;
+    line-height: .7cm;
+}
+.halloween{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F2592A;
+}
+.harvest{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F2592A;
+}
+.carrots{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F2592A;
+}
+.sun{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F2592A;
+    
+}
+.enthusiasm{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #F2592A;
+}
+
+
+.pumpkin{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e85326;
+}
+.warmth{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e85326;
+}
+.autumn{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e85326;
+}
+.tangerine{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e85326;
+}
+.tiger{
+    height: 60vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e85326;
+}
+
