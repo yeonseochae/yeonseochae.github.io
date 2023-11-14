@@ -148,3 +148,10 @@ body{
     align-items: center;
     background-color: #e85326;
 }
+.nav{
+    position: fixed;
+    z-index: 4;
+    font-family: arial;
+    margin-top: 750px;
+    margin-left: 300px;
+}
