@@ -462,9 +462,11 @@ img{
     color: #FFFBF8;
     cursor: pointer;
     margin: 10px auto;
-    border-radius: 70%;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 35px;
+    width: 2%;
+    border-radius: 50%;
+    font-family: arial;
 }
