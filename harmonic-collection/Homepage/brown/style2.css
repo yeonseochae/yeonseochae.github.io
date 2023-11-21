@@ -3,8 +3,7 @@
     font-family: arial;
     text-align: center;
     font-size: 55px;
-    overflow-y: scroll;
-    scroll-snap-type: y mandatory;
+ 
 }
 .bear{
     height: 100vh;
