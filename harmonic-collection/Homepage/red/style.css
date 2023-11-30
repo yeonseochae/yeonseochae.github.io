@@ -25,11 +25,13 @@ body{
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     grid-gap: 20px;
 }
+
 .word h5{
     font-size: 15px;
     text-align: center;
     color: #560b07;
 }
+
 .intro-container{
     width: 100%;
     display: flex;
@@ -43,7 +45,7 @@ body{
     text-align: center;
 }
 .intro h2{
-    color: white;
+    color: #560b07;
     font-size: 30px;
 }
 .intro p{
