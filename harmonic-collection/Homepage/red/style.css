@@ -1,36 +1,53 @@
 body{
     background-color: rgb(222, 32, 32);
     font-family: sans-serif;
-    min-height: 100vh;
     overflow-x: hidden;
 }
 .container{
     display: flex;
-    justify-content: flex-start;
-    margin-top: 10px;
-    color: #3b0e08;
-    transition: all 0.4s linear;
+    justify-content: center;
 }
-.intro{
-    font-size:30px;
-    color:#000000;
-}
+
 .header{
     font-size: 30px;
-    word-spacing: 12.5cm;
-    position: fixed;
-    left: 114px;
-    color: rgb(255, 78, 54);
+    word-spacing: 15cm;
+    display: flex;
+    width: 100%;
+    height: 6vh;
+    align-items: center;
+    justify-content: center;
 }
-.header:hover{
-    color: rgb(251, 90, 69);
-}
-.image-grid{
+
+.word-grid{
     width: 80%;
     margin: 80px auto 30px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
-    grid-gap: 17px;
+    grid-gap: 20px;
+}
+.word h5{
+    font-size: 15px;
+    text-align: center;
+    color: #560b07;
+}
+.intro-container{
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    margin-top: 20px;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.intro h2{
+    color: #560b07;
+    font-size: 30px;
+}
+.intro p{
+    color: #560b07;
 }
 img{
     z-index:0;
@@ -39,205 +56,14 @@ img{
     object-fit: cover;
     object-position: center;
 }
-.text-1{
-    font-size: 19px;
-    line-height: .8cm;
-    display: grid;
-    grid-gap: .1cm;
-    position: absolute;
-    margin-left:145px;
-    margin-top: 17px;
-    width: 591px;
-    color: rgb(255, 192, 192)
-}
-.text-2{
-    font-size: 19px;
-    line-height: .8cm;
-    display: grid;
-    grid-gap: .1cm;
-    width: 591px;
-    position: absolute;
-    margin-left:579px;
-}
-.nav{
-    position: relative;
-    margin-top: 37px;
-    margin-left: 1210px;
-    margin-bottom: 26px;
-    font-family: 'Times New Roman', Times, serif;
-    font-size: 17px;
-}
 
-.red-overlay{
-    position: absolute;
-    width: 180px;
-    height: 180px;
-    background-color: rgb(252, 149, 149);
-    font-size: 40px;
-    opacity: 0%;
+.definition-container{
+    display: flex;
+    width: 100%;
+    align-items:center;
+    justify-content: center;
 }
-.red-overlay:hover{
-    opacity: 70%;
-}
-.anger-overlay{
-    position: absolute;
-    margin-left: 192px;
-    width: 180px;
-    height: 180px;
-    background-color: rgb(244, 103, 103);
-    font-size: 40px;
-    opacity: 0%;
-}
-.anger-overlay:hover{
-    opacity: 70%;
-}
-.apple-overlay{
-    position: absolute;
-    margin-left: 385px;
-    width: 180px;
-    height: 180px;
-    background-color: rgb(245, 60, 60);
-    font-size: 40px;
-    opacity: 0;
-}
-.apple-overlay:hover{
-    opacity: 70%;
-}
-.love-overlay{
-    position: absolute;
-    margin-left: 578px;
-    width: 180px;
-    height: 180px;
-    background-color: rgb(255, 31, 31);
-    font-size: 40px;
-    opacity: 0;
-}
-.love-overlay:hover{
-    opacity:70%;
-}
-.christmas-overlay{
-    position: absolute;
-    margin-left: 770px;
-    width: 180px;
-    height: 180px;
-    background-color: rgb(227, 6, 6);
-    font-size: 40px;
-    opacity: 0%;
-}
-.christmas-overlay:hover{
-    opacity: 70%;
-}
-.tomato-overlay{
-    position: absolute;
-    margin-left: 963px;
-    width: 180px;
-    height: 180px;
-    background-color: rgb(149, 17, 17);
-    font-size: 40px;
-    opacity: 0%;
-}
-.tomato-overlay:hover{
-    opacity: 70%;
-}
-.danger-overlay{
-    position: absolute;
-    margin-top: 197px;
-    width: 180px;
-    height: 180px;
-    background-color: rgb(149, 17, 17);
-    font-size: 40px;
-    opacity: 0%;
-}
-.danger-overlay:hover{
-    opacity: 70%;
-}
-.strawberry-overlay{
-    position: absolute;
-    margin-top: 197px;
-    margin-left: 192px;
-    width: 180px;
-    height: 180px;
-    background-color: rgb(227, 6, 6);
-    font-size: 38px;
-    opacity: 0%;
-}
-.strawberry-overlay:hover{
-    opacity: 70%;
-}
-.heat-overlay{
-    position: absolute;
-    margin-top: 197px;
-    margin-left: 386px;
-    width: 180px;
-    height: 180px;
-    background-color: rgb(255, 31, 31);
-    font-size: 38px;
-    opacity: 0%;
-}
-.heat-overlay:hover{
-    opacity: 70%;
-}
-.passion-overlay{
-    position: absolute;
-    margin-top: 197px;
-    margin-left: 578px;
-    width: 180px;
-    height: 180px;
-    background-color: rgb(245, 60, 60);
-    font-size: 38px;
-    opacity: 0%;
-}
-.passion-overlay:hover{
-    opacity: 70%;
-}
-.affection-overlay{
-    position: absolute;
-    margin-top: 197px;
-    margin-left: 771px;
-    width: 180px;
-    height: 180px;
-    background-color: rgb(244, 103, 103);
-    font-size: 38px;
-    opacity: 0%;
-}
-.affection-overlay:hover{
-    opacity: 70%;
-}
-.fire-overlay{
-    position: absolute;
-    margin-top: 197px;
-    margin-left: 963px;
-    width: 180px;
-    height: 180px;
-    background-color: rgb(252, 149, 149);
-    font-size: 38px;
-    opacity: 0%;
-}
-.fire-overlay:hover{
-    opacity: 70%;
-}
-.red-sent{
-    font-size: 16px;
-    line-height: .6cm;
-}
-.anger-sent{
-    font-size: 16px;
-    line-height: .6cm;
-}
-.apple-sent{
-    font-size: 16px;
-    line-height: .6cm;
-}
-.love-sent{
-    font-size: 16px;
-    line-height: .6cm;
-}
-.christmas-sent{
-    font-size: 16px;
-    line-height: .6cm;
-}
-.nav{
-    font-family: arial;
-    margin-top: 250px;
-    position: fixed;
+.definition{
+    color: #3a0c0a;
+    font-size: 17px;
 }
