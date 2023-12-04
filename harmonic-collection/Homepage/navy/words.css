@@ -2,10 +2,7 @@ body{
     background-color: #25243a;
     color: #d1d2db;
 }
-.back{
-    display: flex;
-    height: 220px;
-}
+
 .container{
     width: 100%;
     height: 100vh;
@@ -13,9 +10,34 @@ body{
     align-items: center;
     justify-content: center;
 }
-.back{
+.star{
     width: 100%;
     height: 25vh;
+}
+.star img{
+    height: 190px;
+    width: auto;
+}
+/* star shaking when hovered */
+.star:hover{
+    animation: rotate .7s ease-in-out both;
+}
+@keyframes rotate {
+    0%{
+        transform: rotate(0deg) translate3d(0, 0, 0);
+    }
+    25%{
+        transform: rotate(3deg) translate3d(0, 0, 0);
+    }
+    50%{
+        transform: rotate(-3deg) translate3d(0, 0, 0);
+    }
+    75%{
+        transform: rotate(2deg) translate3d(0, 0, 0);
+    }
+    100%{
+        transform: rotate(0deg) translate3d(0, 0, 0);
+    }
 }
 .word-grid{
     grid-gap: 15px;
