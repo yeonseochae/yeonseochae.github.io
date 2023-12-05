@@ -80,6 +80,7 @@ body{
     opacity: 0;
     transition: 0.3s ease;
 }
+/* changes the typeface of "Black" when hovered */
 .text-box p:hover{
     opacity: 1;
     font-size:20px;
