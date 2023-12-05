@@ -16,6 +16,7 @@ body{
     color:#f4efd9;
     position: fixed;
 }
+
 .title{
     display: flex;
     flex-direction: column;
@@ -79,6 +80,7 @@ body{
 .text-box p{
     opacity: 0;
     transition: 0.3s ease;
+    background-color: black;
 }
 /* changes the typeface of "Black" when hovered */
 .text-box p:hover{
