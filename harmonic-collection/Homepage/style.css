@@ -2,16 +2,17 @@ body{
     background-color: black;
     overflow-x: hidden;
     font-family: Arial, Helvetica, sans-serif;
-    overflow-y: hidden;
 }
-.container{
-    margin: 3%;
-}
+
 .colors {
     display: grid;
     grid-template-columns: 1fr; 
     grid-template-rows: repeat(10, 1fr);
     font-size: 17px;
+    margin-top: 45px;
+}
+.label a{
+    font-weight: bold;
 }
 .label{
     display: flex;
@@ -26,28 +27,37 @@ body{
 .red {
     /* Style for each color */
     background-color: #FF280B;
+    color: darkred;
 }
 .orange {
     
     background-color: #FF730B;
+    color: #894010;
 }
 .brown {
     background-color: #995323;
+    color: #3f200b;
 }
 .yellow{
     background-color: #FFE652;
+    color: #917900;
 }
 .green{
     background-color: #59C95B;
+    color: #256d25;
 }
 .blue{
     background-color: #3E9BDB;
+    color: #215b7c;
 }.navy{
     background-color: #4968AD;
+    color: #1e355e;
 }.purple{
     background-color: #9E5DA5;
+    color: #4e1956;
 }.white{
     background-color: white;
+    color: #716d72;
 }.black{
     background-color: #302D30;
     color: white;
