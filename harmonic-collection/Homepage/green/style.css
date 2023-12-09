@@ -16,13 +16,10 @@ body{
     font-size: 24px;
     margin-top: 10px;
     word-spacing: 16cm;
-    color:#f4efd9;
     position: fixed;
     z-index: 5;
 }
-.header:hover{
-    color: #90dda6;
-}
+
 .book{
     display: flex;
     align-items: center;
@@ -42,7 +39,6 @@ body{
 .cover{
     z-index: 1;
     transition: all 2.5s;
-
 }
 .back-cover{
     z-index: -2;
@@ -107,15 +103,18 @@ body{
     position: relative;
     z-index: -1;
 }
-.last-page h6{
+.last-page h3{
     text-align: center;
-    font-size: 17px;
+    font-size: 16px;
     color:#253529;
+    font-family: 'Albert Sans', sans-serif;
 }
 .last-page p{
     text-align: center;
-    font-size: 14px;
+    font-size: 13px;
     color:#253529;
+    padding: 10px;
+    font-family: 'Albert Sans', sans-serif;
 }
 .cover P{
     font-size: 50px;
@@ -123,6 +122,7 @@ body{
     margin-left: 20px;
     position: relative;
     color: #253529;
+    font-family: 'Albert Sans', sans-serif;
 }
 .words{
     display: grid;
@@ -138,10 +138,11 @@ body{
     background-color: #2b3c2f;
 }
 .words h6{
-    font-size: 28px;
+    font-size: 23px;
 }
 .words p{
     font-size: 20px;
+    margin-top: 10px;
 }
 .back{
     display: flex;
@@ -149,4 +150,47 @@ body{
     justify-content: center;
     font-size: 16px;
     margin-bottom: 70px;
+}
+@media all and (max-width:800px){
+    .header{
+        font-size: 20px;
+        word-spacing: 4.1cm;
+       }
+       .cover, .back-cover{
+        height: 340px;
+        width: 250px;
+       }
+       .page, .last-page{
+        height:290px;
+        width: 224px;
+       }
+       .last-page img{
+        width: 160px;
+       }
+       .last-page h3{
+        font-size: 13px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+       }
+       .last-page p{
+        font-size:8.5px;
+        padding: 6px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+       }
+       .cover p{
+        font-size: 40px;
+       }
+       .words img{
+        width: 200px;
+        height: auto;
+       }
+       .words h6{
+        font-size: 19px;
+       }
+       .words p{
+        font-size: 17px;
+        margin-top: 8px;
+       }
+    
 }
