@@ -62,3 +62,8 @@ body{
     background-color: #302D30;
     color: white;
 }
+@media all and (max-width: 800px){
+    .colors {
+        font-size: 15px;
+    }
+}
