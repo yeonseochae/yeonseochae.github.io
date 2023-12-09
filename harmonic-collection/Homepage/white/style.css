@@ -125,7 +125,6 @@ body{
 .paper-grid img{
     width: 500px;
     height: auto;
-    
 }
 .sculpture-img img{
     width: 700px;
@@ -134,5 +133,55 @@ body{
 .toilet-img img{
     height: 480px;
     width: auto;
+}
+@media all and (max-width:800px){
+    .header{
+        font-size: 20px;
+        word-spacing: 4.1cm;
+       }
+       .title span{
+        font-size: 80px;
+       }
+       .title p{
+        font-size: 16px;
+       }
+       .snow-grid img{
+        width: 150px;
+    }
+    .snow-grid{
+        animation: slide 8s linear infinite;
+    }
+    .winter-grid img{
+        width: 420px;
+    }
+    .angel-img img{
+        width: 260px;
+        height: auto;
+    }
+    .pillow-img img{
+        width: 500px;
+        height: auto;
+    }
+    .innocence-grid img{
+        width: 230px;
+        height: auto;
+    }
+    .peace-img img{
+        width: 270px;
+    }
+    .rice-grid img{
+        height: 230px;
+        width: auto;
+    }
+    .paper-grid img{
+        width: 370px;
+    }
+    .sculpture-img img{
+        width: 500px;
+    }
+    .toilet-img img{
+        height: 400px;
+    }
+    
 }
 
