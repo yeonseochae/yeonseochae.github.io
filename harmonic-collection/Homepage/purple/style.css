@@ -20,10 +20,6 @@ body{
     word-spacing: 16cm;
     text-align: center;
     position: fixed;
-    color: #cc87d6;
-}
-.header-text:hover{
-    color: #7c52ff;
 }
 .intro{
     display: flex;
@@ -154,4 +150,37 @@ body{
 }
 .word{
     margin: 18px;
+}
+@media all and (max-width: 800px) {
+   .header-text{
+    font-size: 20px;
+    word-spacing: 4.4cm;
+   }
+   .intro p{
+    font-size: 40px;
+   }
+   .card{
+    width: 125px;
+    height: 154px;
+   }
+   .card-front h5{
+    font-size: 24px;
+   }
+   .card-back p{
+    font-size:14.5px;
+    font-weight: bold;
+   }
+   .review h1{
+    font-size: 32px;
+   }
+   .review-container{
+    grid-template-columns: 2fr 2fr ;
+    grid-template-rows: 2fr 2fr 2fr 2fr 2fr;
+   }
+   .word h5{
+    font-size: 15px;
+   }
+   .word p{
+    font-size: 14px;
+   }
 }
