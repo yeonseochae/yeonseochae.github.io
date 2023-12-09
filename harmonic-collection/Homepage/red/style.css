@@ -62,6 +62,7 @@ img{
 .grid-container{
     width: 100%;
     height: 60vh;
+    display: flex;
   }
 
 .grid{
@@ -84,8 +85,34 @@ img{
 .words h3{
     font-size: 17px;
 }
-@media all{
+@media all and (max-width: 800px) {
+    img{
+        width: 145px;
+        height: 145px;
+    }
+   .header{
+    font-size: 20px;
+    word-spacing: 4.1cm;
+   }
+   .intro h2{
+    font-size: 22px;
+   }
+   .intro p{
+    font-size: 15px;
+   }
+   .words h3{
+    font-size: 16px;
+   }
+   .words{
+    font-size: 15px;
+   }
+   .grid{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(6, 1fr);
+    width: 100%;
+    padding: 20px;
+    row-gap: 40px;
+   }
 
 }
-
- 
