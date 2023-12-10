@@ -164,8 +164,10 @@ body{
     height: 154px;
    }
    .card-front h5{
-    font-size: 24px;
+    font-size: 22px;
+    padding: 1px;
    }
+  
    .card-back p{
     font-size:14.5px;
     font-weight: bold;
