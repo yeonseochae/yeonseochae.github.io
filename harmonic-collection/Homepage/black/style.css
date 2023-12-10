@@ -87,3 +87,28 @@ body{
     opacity: 1;
     font-size:20px;
 }
+@media all and (max-width:800px){
+    .header{
+        font-size: 19px;
+        word-spacing: 3.9cm;
+       }
+       .title h2{
+        font-size: 180px;
+       }
+       .info h5{
+        font-size: 17px;
+       }
+       .info p{
+        font-size: 15px;
+       }
+       .intro {
+        font-size: 17px;
+        height: 15vh;
+       }
+       .word-grid{
+        display: grid;
+        grid-template-columns: 2fr 2fr;
+        grid-template-rows: 2fr 2fr 2fr 2fr 2fr;
+        margin-top: 160px;
+       }
+}
