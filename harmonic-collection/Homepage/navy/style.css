@@ -76,3 +76,13 @@ img{
     50% {opacity: .5;}
     100%{opacity: 1;}
 }
+@media all and (max-width:800px){
+    .header{
+        font-size: 19px;
+        word-spacing: 3.9cm;
+       }
+    .star-container img{
+        height: 210px;
+        width: auto;
+    }
+}

@@ -42,9 +42,10 @@ body{
 .word-grid{
     grid-gap: 15px;
     display: grid;
-    grid-template-columns: 2fr 2fr 2fr 2fr 2fr;
-    grid-template-rows: 2fr;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(2, 1fr);
     justify-content: center;
+    position: relative;
     text-align: center;
 }
 .word img{
@@ -56,4 +57,25 @@ body{
 }
 .word p{
     font-family: Arial, Helvetica, sans-serif;
+}
+@media all and (max-width:800px){
+    .star img{
+        height: 155px;
+        width: auto;
+    }
+    .word-grid{
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(5, 1fr);
+        margin-top: 540px;
+    }
+    .word img{
+        width: 190px;
+        height: auto;
+    }
+    .word h3{
+        font-size: 16px;
+    }
+    .word p{
+        font-size: 15px;
+    }
 }

@@ -56,3 +56,15 @@ body{
     font-size: 19px;
     text-align: center;
 }
+@media all and (max-width:800px){
+    .description h5{
+        font-size: 30px;
+    }
+    .text{
+        font-size: 15px;
+        line-height: .5cm;
+    }
+    .star{
+        height: 22vh;
+    }
+}
