@@ -68,6 +68,8 @@ body{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
     grid-gap: 30px;   
+    color: white;
+
 }
 img{
     z-index:0;
@@ -291,7 +293,6 @@ img{
        .stability-overlay{
         margin-left: 250px;
         font-size: 22px;
-        color: #987a65;
        }
        .boring-overlay{
         margin-top: 500px;
