@@ -2,37 +2,38 @@
     color: #6D462B;
     font-family: arial;
     text-align: center;
-    font-size: 55px;
+    font-size: 34px;
+    height: 100vh;
+    width: 100%;
  
 }
 .bear{
-    height: 100vh;
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    scroll-snap-align: start;
 }
+
 .stability{
-    height: 98vh;
-    width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    scroll-snap-align: start;
-
+}
+.stability img{
+    height: 650px;
+    width: auto;
 }
 .dirt{
-    height: 98vh;
-    width: 100%;
+  
     display: flex;
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    scroll-snap-align: start;
-
+}
+.dirt img{
+    height: 550px;
+    width: auto;
 }
 .acorn{
     height: 98vh;
@@ -42,7 +43,6 @@
     justify-content: space-around;
     align-items: center;
     margin-top: 30px;
-    scroll-snap-align: start;
 
 }
 .soysauce{
@@ -52,8 +52,6 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-top: 30px;
-    scroll-snap-align: start;
 
 }
 .boring{
@@ -63,8 +61,6 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-top: 30px;
-    scroll-snap-align: start;
 
 }
 .log{
@@ -74,9 +70,10 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-top: 30px;
-    scroll-snap-align: start;
-
+}
+.log img{
+    height: 450px;
+    width: auto;
 }
 .squirrel{
     height: 98vh;
@@ -85,9 +82,10 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-top: 30px;
-    scroll-snap-align: start;
-
+}
+.squirrel img{
+    height: 450px;
+    width: auto;
 }
 .potato{
     height: 98vh;
@@ -96,8 +94,6 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-top: 30px;
-    scroll-snap-align: start;
 
 }
 .wisdom{
@@ -107,9 +103,10 @@
     flex-direction: column;
     justify-content: space-around;
     align-items: center;
-    margin-top: 30px;
-    scroll-snap-align: start;
-
+}
+.wisdom img{
+    height: 450px;
+    width: auto;
 }
 .h{
     width: 100%;
@@ -125,5 +122,56 @@
     font-size: 18px;
     padding: 15px;
 }
+@media all and (max-width:800px){
+    body{
+        overflow-x: hidden;
+    }
+    .words{
+        font-size: 25px;
+    }
+    .bear img{
+        height: 350px;
+        width: auto;
+    }
+    .stability img{
+        height: 380px;
+        width: auto;
+    }
+    .dirt img{
+        height: 400px;
+        width: auto;
+    }
+    .acorn img{
+        height: 370px;
+        width: auto;
+    }
+    .soysauce img{
+        height: 380px;
+        width: auto;
+    }
+    .boring img{
+        height: 350px;
+        width: auto;
+    }
+    .log img{
+        height: 300px;
+        width: auto;
+    }
+    .squirrel img{
+        height: 330px;
+        width: auto;
+    }
+    .potato img{
+        height: 430px;
+        width: auto;
+    }
+    .wisdom img{
+        height: 380px;
+        width: auto;
+    }
+       
 
+}
+
+   
 
