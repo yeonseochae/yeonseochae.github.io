@@ -9,7 +9,7 @@ body{
     height: 7vh;
 }
 .header-text{
-    font-size:23px;
+    font-size:22px;
     word-spacing: 15.4cm;
     margin-left: 22px;
     color: #6D462B;
@@ -159,73 +159,8 @@ img{
     height: 180px;
     font-size: 25px;
 }
-.bear-overlay:hover{
-    color:#6D2C0C;
-    transition: 1.2s;
-    transform: scale(2.1);
-    -webkit-transform: scale(2.1);
-    -ms-transform: scale(2.1);
-}
-.stability-overlay:hover{
-    color:#6D2C0C;
-    transition: 1.2s;
-    transform: scale(3.5);
-    -webkit-transform: scale(3.5);
-    -ms-transform: scale(3.5);
-}
-.dirt-overlay:hover{
-    color:#6D2C0C;
-    transition: 1.2s;
-    transform: scale(2.0);
-    -webkit-transform: scale(2.0);
-    -ms-transform: scale(2.0);
-}
-.acorn-overlay:hover{
-    color:#6D2C0C;
-    transition: 1.2s;
-    transform: scale(2.3);
-    -webkit-transform: scale(2.3);
-    -ms-transform: scale(2.3);
-}.soysauce-overlay:hover{
-    color:#6D2C0C;
-    transition: 1.2s;
-    transform: scale(3.4);
-    -webkit-transform: scale(3.4);
-    -ms-transform: scale(3.4);
-}.boring-overlay:hover{
-    color:#6D2C0C;
-    transition: 1.2s;
-    transform: scale(1.8);
-    -webkit-transform: scale(1.8);
-    -ms-transform: scale(1.8);
-}.log-overlay:hover{
-    color:#6D2C0C;
-    transition: 1.2s;
-    transform: scale(1.7);
-    -webkit-transform: scale(1.7);
-    -ms-transform: scale(1.7);
-}
-.squirrel-overlay:hover{
-    color:#6D2C0C;
-    transition: 1.2s;
-    transform: scale(1.7);
-    -webkit-transform: scale(1.7);
-    -ms-transform: scale(1.7);
-}
-.potato-overlay:hover{
-    color:#6D2C0C;
-    transition: 1.2s;
-    transform: scale(1.9);
-    -webkit-transform: scale(1.9);
-    -ms-transform: scale(1.9);
-}
-.wisdom-overlay:hover{
-    color:#6D2C0C;
-    transition: 1.2s;
-    transform: scale(1.9);
-    -webkit-transform: scale(1.9);
-    -ms-transform: scale(1.9);
-}
+
+
 body{
     background-color: #FFFBF8;
     font-family: Arial, Helvetica, sans-serif;
@@ -285,6 +220,7 @@ body{
 
 }
 .intro-text{
+    margin-top: 30px;
     margin-left: 10px;
     color: #6D462B;
 
@@ -305,161 +241,14 @@ img{
     object-position: center;
     padding: 10px;
 }
-.bear-overlay{
-    position: absolute;
-    margin-left: 90px;
-    margin-top: 76px;
-    width: 180px;
-    height: 180px;
-    font-size: 25px;
-}
-.stability-overlay{
-    position: absolute;
-    margin-left: 255px;
-    margin-top: 145px;
-    width: 180px;
-    height: 180px;
-    font-size: 25px;
-}
-.dirt-overlay{
-    position: absolute;
-    margin-left: 479px;
-    margin-top: 80px;
-    width: 180px;
-    height: 180px;
-    font-size: 25px;
-}
-.acorn-overlay{
-    position: absolute;
-    margin-left: 669px;
-    margin-top: 87px;
-    width: 180px;
-    height: 180px;
-    font-size: 25px;
-}
-.soysauce-overlay{
-    position: absolute;
-    margin-left: 797px;
-    margin-top: 80px;
-    width: 180px;
-    height: 180px;
-    font-size: 18px;
-    text-align: center;
-}
-.boring-overlay{
-    position: absolute;
-    margin-left: 75px;
-    margin-top: 260px;
-    width: 180px;
-    height: 180px;
-    font-size: 25px;
-}
-.log-overlay{
-    position: absolute;
-    margin-left: 235px;
-    margin-top: 320px;
-    width: 180px;
-    height: 180px;
-    font-size: 25px;
-}
-.squirrel-overlay{
-    position: absolute;
-    margin-left: 305px;
-    margin-top: 295px;
-    width: 180px;
-    height: 180px;
-    font-size: 19px;
-}
-.potato-overlay{
-    position: absolute;
-    margin-left: 460px;
-    margin-top: 290px;
-    width: 180px;
-    height: 180px;
-    font-size: 25px;
-}
-.wisdom-overlay{
-    position: absolute;
-    margin-left: 635px;
-    margin-top: 290px;
-    width: 180px;
-    height: 180px;
-    font-size: 25px;
-}
-.bear-overlay:hover{
-    color:#6D2C0C;
-    transition: 1.2s;
-    transform: scale(2.1);
-    -webkit-transform: scale(2.1);
-    -ms-transform: scale(2.1);
-}
-.stability-overlay:hover{
-    color:#6D2C0C;
-    transition: 1.2s;
-    transform: scale(3.5);
-    -webkit-transform: scale(3.5);
-    -ms-transform: scale(3.5);
-}
-.dirt-overlay:hover{
-    color:#6D2C0C;
-    transition: 1.2s;
-    transform: scale(2.0);
-    -webkit-transform: scale(2.0);
-    -ms-transform: scale(2.0);
-}
-.acorn-overlay:hover{
-    color:#6D2C0C;
-    transition: 1.2s;
-    transform: scale(2.3);
-    -webkit-transform: scale(2.3);
-    -ms-transform: scale(2.3);
-}.soysauce-overlay:hover{
-    color:#6D2C0C;
-    transition: 1.2s;
-    transform: scale(3.4);
-    -webkit-transform: scale(3.4);
-    -ms-transform: scale(3.4);
-}.boring-overlay:hover{
-    color:#6D2C0C;
-    transition: 1.2s;
-    transform: scale(1.8);
-    -webkit-transform: scale(1.8);
-    -ms-transform: scale(1.8);
-}.log-overlay:hover{
-    color:#6D2C0C;
-    transition: 1.2s;
-    transform: scale(1.7);
-    -webkit-transform: scale(1.7);
-    -ms-transform: scale(1.7);
-}
-.squirrel-overlay:hover{
-    color:#6D2C0C;
-    transition: 1.2s;
-    transform: scale(1.7);
-    -webkit-transform: scale(1.7);
-    -ms-transform: scale(1.7);
-}
-.potato-overlay:hover{
-    color:#6D2C0C;
-    transition: 1.2s;
-    transform: scale(1.9);
-    -webkit-transform: scale(1.9);
-    -ms-transform: scale(1.9);
-}
-.wisdom-overlay:hover{
-    color:#6D2C0C;
-    transition: 1.2s;
-    transform: scale(1.9);
-    -webkit-transform: scale(1.9);
-    -ms-transform: scale(1.9);
-}
+
 /* This button guides to page with words and images */
 .button{
     border: none;
     outline: none;
     background: #e4d9bf;
     padding: 10px 30px;
-    font-size: 19px;
+    font-size: 15.5px;
     font-family: 'Times New Roman', Times, serif;
     color: #FFFBF8;
     cursor: pointer;
@@ -468,13 +257,82 @@ img{
     justify-content: center;
     align-items: center;
     margin-top: 35px;
-    width: 2%;
-    border-radius: 50%;
+    width: 6%;
+    border-radius: 30%;
     font-family: arial;
+    text-align: center;
 }
 .back{
     font-size: 18px;
     z-index: 15;
     margin-left: 5px;
     margin-top: 10px;
+}
+@media all and (max-width:800px){
+    .header-text{
+        font-size: 20px;
+        word-spacing: 3.9cm;
+       }
+       .title{
+        font-size: 180px;
+        height: 40vh;
+       }
+       .description{
+        font-size: 13.7px;
+        height: 29vh;
+       }
+       .intro-text{
+        font-size: 19px;
+        font-weight:bold ;
+       }
+       .bear-overlay{
+        font-size: 22px;
+       }
+       .stability-overlay{
+        margin-left: 250px;
+        font-size: 22px;
+        color: #987a65;
+       }
+       .boring-overlay{
+        margin-top: 500px;
+        margin-left: 270px;
+        font-size: 22px;
+       }
+       .acorn-overlay{
+        position: absolute;
+        margin-left: 270px;
+        margin-top: 320px;
+        font-size: 22px;
+    }
+    .log-overlay{
+        font-size: 22px;
+        margin-top: 785px;
+        margin-left: 40px;
+    }
+    .squirrel-overlay{
+        font-size: 18px;
+        margin-top: 755px;
+        margin-left: 115px;
+    }
+    .dirt-overlay{
+        margin-left: 90px;
+        margin-top: 320px;
+        font-size: 22px;
+    }
+    .soysauce-overlay{
+        margin-left: 11px;
+        margin-top: 550px;
+        font-size: 17px;
+    }
+    .potato-overlay{
+        margin-left: 255px;
+        margin-top: 755px;
+        font-size: 22px;
+    }
+    .wisdom-overlay{
+        margin-top: 990px;
+        margin-left:45px ;
+        font-size: 20px;
+    }
+
 }
