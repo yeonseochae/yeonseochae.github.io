@@ -21,6 +21,7 @@ body{
     position: absolute;
     margin-top: 9rem;
 }
+/* an image slide that users can swipe through */
 .image-slide{
     position: relative;
     max-width: 17rem;

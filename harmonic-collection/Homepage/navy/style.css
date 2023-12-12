@@ -50,7 +50,6 @@ body{
     100%{
         transform: rotate(0deg) translate3d(0, 0, 0);
     }
-    
 }
 img{
     width: 250px;
