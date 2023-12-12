@@ -17,7 +17,6 @@ body{
     word-spacing: 4.3cm;
     left: 47px;
     font-family: sans-serif;
-    color:rgb(121, 34, 0);
     display: flex;
     align-items: center;
     width: 100%;
@@ -154,4 +153,33 @@ body{
     font-family: arial;
     margin-top: 750px;
     margin-left: 300px;
+}
+@media all and (max-width:800px){
+    .title{
+        font-size: 18px;
+        word-spacing: 4cm;
+        left: 12px;
+    }
+    .description-paragraph{
+        height: 50vh;
+        width: 100%;
+        position: absolute;
+    }
+    .words{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 360px;
+    }
+    .words-2{
+        width: 100%;
+        margin-top: 360px;
+    }
+    .words img{
+        height: 170px;
+        width: auto;
+    }
+    .words-2 img{
+        height: 155px;
+        width: auto;
+    }
 }
