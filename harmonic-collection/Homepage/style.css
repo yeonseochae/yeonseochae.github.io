@@ -29,11 +29,12 @@ body{
     background-color: #FF280B;
     color: darkred;
 }
+
 .orange {
-    
     background-color: #FF730B;
     color: #894010;
 }
+
 .brown {
     background-color: #995323;
     color: #3f200b;
@@ -61,6 +62,50 @@ body{
 }.black{
     background-color: #302D30;
     color: white;
+}
+.red:hover{
+    width: 10%;
+    font-size: 20px;
+    border-radius: 15%;
+}
+.orange:hover{
+    width: 20%;
+    font-size: 20px;
+    border-radius: 15%;
+}.yellow:hover{
+    width: 40%;
+    border-radius: 15%;
+    font-size: 20px;
+}.brown:hover{
+    width: 30%;
+    border-radius: 15%;
+    font-size: 20px;
+}.green:hover{
+    width: 50%;
+    border-radius: 15%;
+    font-size: 20px;
+}.blue:hover{
+    width: 60%;
+    border-radius: 15%;
+    font-size: 20px;
+}.navy:hover{
+    width: 70%;
+    border-radius: 15%;
+    font-size: 20px;
+}
+.purple:hover{
+    width: 80%;
+    border-radius: 15%;
+    font-size: 20px;
+}
+.white:hover{
+    width: 90%;
+    border-radius: 15%;
+    font-size: 20px;
+}
+.black:hover{
+    border-radius: 15%;
+    font-size: 20px;
 }
 @media all and (max-width: 800px){
     .colors {
