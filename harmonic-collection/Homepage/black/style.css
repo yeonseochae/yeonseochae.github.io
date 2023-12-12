@@ -29,6 +29,7 @@ body{
 .title h2{
     font-size: 340px;
 }
+/* changes the typeface of "Black" when hovered */
 .title h2:hover{
     font-family: Arial, Helvetica, sans-serif;
 }
@@ -82,12 +83,12 @@ body{
     transition: 0.3s ease;
     background-color: black;
 }
-/* changes the typeface of "Black" when hovered */
+/* revelas the word written in korean and pronounciation when hovered */
 .text-box p:hover{
     opacity: 1;
     font-size:20px;
 }
-@media all and (max-width:576px){
+@media (max-width:1000px){
     .header{
         font-size: 19px;
         word-spacing: 3.9cm;
@@ -111,4 +112,8 @@ body{
         grid-template-rows: 2fr 2fr 2fr 2fr 2fr;
         margin-top: 160px;
        }
+       .text-box p{
+        opacity: 1;
+    }
+     
 }
