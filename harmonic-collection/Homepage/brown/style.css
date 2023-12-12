@@ -270,13 +270,13 @@ img{
     margin-left: 5px;
     margin-top: 10px;
 }
-@media all and (max-width:800px){
+@media all and (max-width:900px){
     .header-text{
         font-size: 20px;
         word-spacing: 3.9cm;
        }
        .title{
-        font-size: 180px;
+        font-size: 250px;
         height: 40vh;
        }
        .description{
@@ -291,48 +291,48 @@ img{
         font-size: 22px;
        }
        .stability-overlay{
-        margin-left: 250px;
+        margin-left: 260px;
         font-size: 22px;
        }
        .boring-overlay{
-        margin-top: 500px;
-        margin-left: 270px;
+        margin-top: 260px;
+        margin-left: 485px;
         font-size: 22px;
        }
        .acorn-overlay{
         position: absolute;
-        margin-left: 270px;
+        margin-left: 80px;
         margin-top: 320px;
         font-size: 22px;
     }
     .log-overlay{
         font-size: 22px;
-        margin-top: 785px;
+        margin-top: 555px;
         margin-left: 40px;
     }
     .squirrel-overlay{
         font-size: 18px;
-        margin-top: 755px;
+        margin-top: 525px;
         margin-left: 115px;
     }
     .dirt-overlay{
-        margin-left: 90px;
-        margin-top: 320px;
+        margin-left: 470px;
+        margin-top: 100px;
         font-size: 22px;
     }
     .soysauce-overlay{
-        margin-left: 11px;
-        margin-top: 550px;
+        margin-left: 211px;
+        margin-top: 350px;
         font-size: 17px;
     }
     .potato-overlay{
         margin-left: 255px;
-        margin-top: 755px;
+        margin-top: 555px;
         font-size: 22px;
     }
     .wisdom-overlay{
-        margin-top: 990px;
-        margin-left:45px ;
+        margin-top: 530px;
+        margin-left:439px ;
         font-size: 20px;
     }
 

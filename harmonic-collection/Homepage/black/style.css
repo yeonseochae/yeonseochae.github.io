@@ -88,7 +88,7 @@ body{
     opacity: 1;
     font-size:20px;
 }
-@media (max-width:1000px){
+@media (max-width:700px){
     .header{
         font-size: 19px;
         word-spacing: 3.9cm;
