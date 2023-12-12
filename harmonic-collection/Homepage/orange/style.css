@@ -1,6 +1,19 @@
 body{
     background-color: #FF6833;
+    cursor: none;
 }
+/* style for customized cursor (chat gpt) */
+#custom-cursor {
+    position: fixed;
+    width: 40px; /* Set the width of the cursor */
+    height: 40px; /* Set the height of the cursor */
+    background-image: url('images/cursor.png'); /* Specify the path to your custom cursor image */
+    background-size: cover;
+    pointer-events: none; /* Make sure the cursor doesn't interfere with interactive elements */
+    z-index: 9999; /* Ensure the cursor appears above other elements */
+    display: none; /* Initially hide the cursor */
+  }
+/* "click me button" */
 .button{
     border: none;
     outline: none;
