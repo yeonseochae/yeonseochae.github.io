@@ -111,4 +111,29 @@ body{
     .colors {
         font-size: 15px;
     }
+    .red:hover{
+        width: 100%;       
+    }
+    .orange:hover{
+        width: 100%;
+    }.yellow:hover{
+        width: 100%;
+    }.brown:hover{
+        width: 100%;
+    }.green:hover{
+        width: 100%;
+    }.blue:hover{
+        width: 100%;
+    }.navy:hover{
+        width: 100%;
+    }
+    .purple:hover{
+        width: 100%;
+    }
+    .white:hover{
+        width: 100%;
+    }
+    .black:hover{
+        width: 100%;
+    }
 }
